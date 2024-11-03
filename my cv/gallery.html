@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom styling for additional visuals */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url(wp11186368-the-colosseum-2022-wallpapers.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: #06a134;
+        }
+        .header-bg {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-bottom: 2px solid #32CD32;
+        }
+        h1, h2 {
+            color: #32CD32;
+        }
+        .gallery-section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 8px;
+        }
+        .gallery-item {
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <header class="header-bg text-center py-3">
+        <h1>Yachty's Portfolio</h1>
+        <nav class="nav justify-content-center">
+            <a class="nav-link text-light" href="index.html">Home</a>
+            <a class="nav-link text-light" href="work-experience.html">Work Experience</a>
+            <a class="nav-link text-light" href="gallery.html">Gallery</a>
+            <a class="nav-link text-light" href="education.html">Education Background</a>
+            <a class="nav-link text-light" href="personal.html">Personal</a>
+        </nav>
+    </header>
+
+    <section class="gallery-section text-center container my-4">
+        <h2>Gallery</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <video class="gallery-item" width="100%" controls src="vid.mp4"></video>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="WhatsApp Image 2024-11-03 at 11.05.08_e0a425ec.jpg" class="img-fluid gallery-item" alt="Project 2">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="WhatsApp Image 2024-11-03 at 11.05.10_30217fbd.jpg" class="img-fluid gallery-item" alt="Project 3">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="WhatsApp Image 2024-11-03 at 11.05.10_ebf30354.jpg" class="img-fluid gallery-item" alt="Project 4">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-bg text-center py-3">
+        <p>&copy; 2024 YACHTY</p>
+    </footer>
+
+    <!-- Optional Bootstrap JavaScript and dependencies (for interactive elements) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
