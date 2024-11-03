@@ -1,0 +1,49 @@
+ My CV
+
+Welcome to my CV project! 
+This repository contains the HTML and CSS code for my personal portfolio webpage
+It showcases my background, work experience, education, and personal information.
+
+ Project Overview
+
+This webpage serves as my digital CV, displaying information in an organized, responsive format with a professional design. The design uses Bootstrap to enhance layout and styling, and Font Awesome for social media icons.
+
+ Technologies Used
+
+- HTML: Provides the basic structure for the page.
+- CSS: Used for custom styling, including colors, fonts, and layout adjustments.
+- Bootstrap: For responsive layout, buttons, and navigation styling.
+- Font Awesome: Used for social media icons in the footer.
+
+ Features
+
+- Responsive Design: The layout adjusts to different screen sizes for mobile, tablet, and desktop views.
+- Clean Navigation: Links to various sections like Work Experience, Gallery, Education, and Personal Info.
+- Styled Header and Footer: Neon green and dark semi-transparent backgrounds give the design a modern, professional look.
+- Social Media Links: Icons link to Instagram, Facebook, and Twitter profiles.
+
+ How to Use
+
+To view the CV webpage locally:
+1. Clone the repository: `git clone https://github.com/yourusername/your-repo-name.git`
+2. Open `index.html` in your preferred web browser.
+
+Project Structure
+
+- `index.html`: The main HTML file for the CV page.
+- `style.css`: Custom CSS file for additional styling.
+- `README.md`: This file, providing an overview of the project.
+
+Screenshot
+
+[Screenshot of my CV webpage]     ("C:\Users\TUMWINE TIMOTHY\Pictures\Screenshots\Screenshot 2024-11-03 114620.png")
+
+License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+ Contact
+
+You can reach me on:
+- [Instagram](https://www.instagram.com/yachty_ug/profilecard/?igsh=MXV3YzlqZjNwN281cg==)
+- [Twitter](https://x.com/Tumweenee?t=umg4cdInX0Fl-ovayLCrsQ&s=09)
